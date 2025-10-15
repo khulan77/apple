@@ -267,7 +267,7 @@ body {
   scroll-snap-type: x mandatory;
   flex-direction: row;
 }
-.tugs {
+#tugs1 {
   width: 1250px;
   height: 668px;
   background-size: cover;
@@ -275,32 +275,86 @@ body {
   flex-shrink: 0;
   position: relative;
   scroll-snap-align: center;
-}
-.napoleon {
   background-image: url(./napoleon.jpg);
 }
-.bad {
+#tugs2{
+  width: 1250px;
+  height: 668px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
   background-image: url(./bad-monkey.jpg);
 }
-.the {
+#tugs3{
+  width: 1250px;
+  height: 668px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
   background-image: url(./instigators.jpg);
 }
-.k-pop {
+#tugs4 {
+  width: 1250px;
+  height: 668px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
   background-image: url(./k-pop-idols.jpg);
 }
-.pass {
+#tugs5{
+  width: 1250px;
+  height: 668px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
   background-image: url(./season-pass.jpg);
 }
-.presumed {
+#tugs6{
+  width: 1250px;
+  height: 668px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
   background-image: url(./pressumed-innocent.jpg);
 }
-.pachinko {
+#tugs7 {
+  width: 1250px;
+  height: 668px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
   background-image: url(./pachinko.jpg);
 }
-.baseball {
+#tugs8{
+  width: 1250px;
+  height: 668px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
   background-image: url(./baseball.jpg);
 }
-.lady {
+#tugs9 {
+  width: 1250px;
+  height: 668px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
   background-image: url(./lady-in-the-lake.jpg);
 }
 button {
@@ -323,11 +377,28 @@ button {
   font-size: 17px;
   font-weight: 400;
 }
-.morning {
+#tugs10 {
+  width: 1250px;
+  height: 668px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
   background-image: url(morning-show.jpg);
 }
-/* span {
-  font-style: Bold;
-  font-size: 17px;
-  font-weight: 700;
-} */
+.bullets {
+  display: flex;
+  margin-top: 14px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.mult {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  margin-inline: 7px;
+  border-radius: 50%;
+  background-color: #0000006b;
+}
+
