@@ -1,19 +1,13 @@
-body {
-  margin: 0px;
-  display: flex;
-  justify-content: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#nuur {
+body {
   font-family: "Inter", sans-serif;
-  width: 1920px;
-  position: relative;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 #menu {
-  width: 1920px;
+  width: 100%;
   height: 44px;
   display: flex;
   justify-content: center;
@@ -23,24 +17,25 @@ body {
   z-index: 20;
   gap: 24px;
   background-color: #f5f5f7;
-  font-family: "Inter" serif;
+  padding-left: 31px;
 }
 #tolgoi {
-  width: 1920px;
   height: 44px;
   margin-top: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 20px;
 }
 #black {
   position: relative;
   background-image: url(./iphone16pro.jpg);
   height: 692px;
-  width: 1920px;
   background-position: center;
   background-size: cover;
-  font-family: "Inter" serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .four {
   position: absolute;
@@ -49,8 +44,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 55px;
-  margin-left: 757px;
+  display: flex;
+  margin-bottom: 340px;
 }
 .iphone {
   color: white;
@@ -101,18 +96,22 @@ body {
   align-items: center;
 }
 #blue {
-  width: 1920px;
   height: 692px;
   background-image: url(./iphone16.jpg);
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #pink {
-  width: 1920px;
   height: 692px;
   background-image: url(./beleg\ apple.jpg);
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .seven {
   width: 405px;
@@ -120,8 +119,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: 757px;
-  margin-top: 446px;
+  margin-top: 400px;
 }
 .phone {
   color: black;
@@ -154,18 +152,20 @@ body {
   margin-left: 145.5px;
 }
 #dad {
-  width: 1920px;
+  width: 100%;
   height: 1764px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
 }
 .child {
-  width: 942px;
+  width: 924px;
   height: 580px;
   align-items: center;
+  display: flex;
   text-align: center;
   flex-direction: column;
 }
@@ -260,7 +260,6 @@ body {
   margin-left: 387.5px;
 }
 .tugsgul {
-  width: 1920px;
   display: flex;
   gap: 15px;
   overflow-x: scroll;
@@ -277,7 +276,7 @@ body {
   scroll-snap-align: center;
   background-image: url(./napoleon.jpg);
 }
-#tugs2{
+#tugs2 {
   width: 1250px;
   height: 668px;
   background-size: cover;
@@ -287,7 +286,7 @@ body {
   scroll-snap-align: center;
   background-image: url(./bad-monkey.jpg);
 }
-#tugs3{
+#tugs3 {
   width: 1250px;
   height: 668px;
   background-size: cover;
@@ -307,7 +306,7 @@ body {
   scroll-snap-align: center;
   background-image: url(./k-pop-idols.jpg);
 }
-#tugs5{
+#tugs5 {
   width: 1250px;
   height: 668px;
   background-size: cover;
@@ -317,7 +316,7 @@ body {
   scroll-snap-align: center;
   background-image: url(./season-pass.jpg);
 }
-#tugs6{
+#tugs6 {
   width: 1250px;
   height: 668px;
   background-size: cover;
@@ -337,7 +336,7 @@ body {
   scroll-snap-align: center;
   background-image: url(./pachinko.jpg);
 }
-#tugs8{
+#tugs8 {
   width: 1250px;
   height: 668px;
   background-size: cover;
@@ -401,4 +400,3 @@ button {
   border-radius: 50%;
   background-color: #0000006b;
 }
-
