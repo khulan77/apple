@@ -5,6 +5,14 @@
 }
 body {
   font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#nuur {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 #menu {
   width: 100%;
@@ -19,13 +27,28 @@ body {
   background-color: #f5f5f7;
   padding-left: 31px;
 }
+.telephone2 {
+  display: flex;
+  gap: 10px;
+}
+.vector5 {
+  width: 17.6px;
+  height: 15.12px;
+}
+.vector6 {
+  width: 16.05px;
+  height: 16.03px;
+}
+.button {
+  display: none;
+}
+
 #tolgoi {
-  height: 44px;
   margin-top: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 20px;
+  padding: 16px 31px;
 }
 #black {
   position: relative;
@@ -37,7 +60,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.four {
+/* .four {
   position: absolute;
   width: 405px;
   height: 172px;
@@ -46,7 +69,7 @@ body {
   align-items: center;
   display: flex;
   margin-bottom: 340px;
-}
+} */
 .iphone {
   color: white;
   font-size: 52px;
@@ -70,6 +93,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 390px;
 }
 .learn {
   width: 123px;
@@ -84,6 +108,55 @@ body {
   align-items: center;
 }
 .buy {
+  width: 68px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(41, 151, 255, 1);
+  color: rgba(41, 151, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iphone1 {
+  color: white;
+  font-size: 52px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.apple1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.hamt1 {
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 390px;
+}
+.learn1 {
+  width: 123px;
+  height: 44px;
+  background-color: #0071e3;
+  color: white;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy1 {
   width: 68px;
   height: 44px;
   border-radius: 999px;
@@ -151,15 +224,15 @@ body {
   align-items: center;
   margin-left: 145.5px;
 }
+
 #dad {
   width: 100%;
-  height: 1764px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+  padding: 0px;
 }
 .child {
   width: 924px;
@@ -194,6 +267,30 @@ body {
   background-position: center;
   background-size: cover;
 }
+.dog3 {
+  width: 257px;
+  height: 72px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dog4 {
+  width: 257px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.dog5 {
+  width: 107px;
+  height: 36px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgba(0, 113, 227, 1);
+}
 .zurga {
   background-image: url(./card.jpg);
   background-position: center;
@@ -201,7 +298,6 @@ body {
 }
 .sizes {
   color: black;
-  margin-top: 9px;
 }
 .air {
   margin-top: 58px;
@@ -213,8 +309,19 @@ body {
   align-items: center;
   margin-top: 20px;
 }
-.cat {
-  margin-top: 401px;
+.paris2 {
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.paris3 {
+  gap: 16px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 .cat2 {
   font-size: 36px;
@@ -223,6 +330,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 380px;
 }
 .cat3 {
   font-size: 18px;
@@ -232,10 +340,29 @@ body {
   justify-content: center;
   align-items: center;
 }
+.cat4 {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.cat5 {
+  width: 241px;
+  height: 69px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
 .what {
   font-size: 32px;
   font-weight: 700;
 }
+
 .series {
   font-size: 15px;
   font-weight: 700;
@@ -256,8 +383,116 @@ body {
   background-color: #0071e3;
   color: white;
   border-radius: 999px;
-  margin-top: 20px;
-  margin-left: 387.5px;
+}
+.dog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.dog6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.dog7 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.dog8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.dog9 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.energy {
+  width: 314px;
+  height: 36px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.energy2 {
+  width: 314px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.energy3 {
+  width: 126px;
+  height: 36px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgba(0, 113, 227, 1);
+}
+.doloo {
+  display: none;
+}
+.learn2 {
+  width: 123px;
+  height: 44px;
+  background-color: #0071e3;
+  color: white;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy2 {
+  width: 68px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(41, 151, 255, 1);
+  color: rgba(41, 151, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.learn3 {
+  width: 123px;
+  height: 44px;
+  background-color: #0071e3;
+  color: white;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy3 {
+  width: 68px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(41, 151, 255, 1);
+  color: rgba(41, 151, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .tugsgul {
   display: flex;
@@ -399,4 +634,256 @@ button {
   margin-inline: 7px;
   border-radius: 50%;
   background-color: #0000006b;
+}
+/* mobile */
+@media screen and (max-width: 767px) {
+  .header {
+    display: none;
+  }
+  .button {
+    display: block;
+  }
+  .telephone {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+  #menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  #tolgoi {
+    margin-top: 48px;
+    padding-block: 12px;
+  }
+  #black {
+    display: flex;
+    background-image: url(./media1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #blue {
+    background-image: url(./media2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #pink {
+    display: none;
+  }
+  .iphone {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 850px;
+  }
+  .apple {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .hamt {
+    column-gap: 12px;
+  }
+  .buy {
+    padding: 8px 16px;
+  }
+  .learn {
+    padding: 8px 16px;
+  }
+  .iphone1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .apple1 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .hamt1 {
+    column-gap: 12px;
+    padding: 0px;
+    padding-bottom: 350px;
+  }
+  .buy1 {
+    padding: 8px 16px;
+  }
+  .learn1 {
+    padding: 8px 16px;
+  }
+  .hoyr {
+    background-image: url(./magic1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .gurv {
+    background-image: url(./magic2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .tav {
+    background-image: url(./magic4.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .zurga {
+    background-image: url(./magic5.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .doloo {
+    display: block;
+    background-image: url(./two\ phone.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .cat2 {
+    display: none;
+  }
+  .cat3 {
+    display: none;
+  }
+  .cat4 {
+    display: block;
+    padding-top: 350px;
+  }
+  .cat5 {
+    display: block;
+  }
+  .paris {
+    display: none;
+  }
+  .paris3 {
+    display: flex;
+  }
+  .dog6 {
+    display: none;
+  }
+  .dog7 {
+    display: flex;
+    padding-top: 42px;
+  }
+  .dog8 {
+    display: none;
+  }
+  .dog9 {
+    display: flex;
+    padding-top: 341px;
+  }
+  #tugs1 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./tugs1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #tugs2 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./tugs2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #tugs3 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./tugs3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #tugs4 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./tugs4.jpg);
+    background-position: center;
+    width: 274px;
+    height: 495px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #tugs5 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./tugs5.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #tugs6 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./tugs6.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #tugs7 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./tugs7.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #tugs8 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./tugs8.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #tugs9 {
+    width: 274px;
+    height: 495px;
+    background-position: center;
+    background-size: cover;
+  }
+  #tugs10 {
+    width: 274px;
+    height: 495px;
+    background-position: center;
+    background-size: cover;
+  }
+  button {
+    display: none;
+  }
+  .drama {
+    display: none;
+  }
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    display: none;
+  }
+  .button {
+    display: block;
+  }
+  .telephone {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+  #menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  #tolgoi {
+    margin-top: 48px;
+    padding-block: 12px;
+  }
+  #pink {
+    display: none;
+  }
+  .hoyr {
+    width: 366px;
+    height: 490px;
+    background-image: url(./magic1.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+  }
 }
