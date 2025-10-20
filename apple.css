@@ -228,6 +228,7 @@ body {
 #dad {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -239,6 +240,7 @@ body {
   height: 580px;
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   flex-direction: column;
 }
@@ -348,7 +350,25 @@ body {
   justify-content: center;
   align-items: center;
 }
+.key5 {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
 .cat5 {
+  width: 241px;
+  height: 69px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.key6 {
   width: 241px;
   height: 69px;
   font-size: 18px;
@@ -390,6 +410,9 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 10px;
+}
+.dog10 {
+  display: none;
 }
 .dog6 {
   display: flex;
@@ -493,6 +516,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.paris4 {
+  display: none;
+}
+.key10 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 320px;
 }
 .tugsgul {
   display: flex;
@@ -599,9 +632,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 576px;
-  margin-left: 70px;
   border: none;
+  margin-top: 575px;
+  margin-left: 70px;
 }
 .drama {
   position: absolute;
@@ -634,6 +667,27 @@ button {
   margin-inline: 7px;
   border-radius: 50%;
   background-color: #0000006b;
+}
+.key2 {
+  display: none;
+}
+.key3 {
+  display: none;
+}
+.key4 {
+  display: none;
+}
+.young {
+  display: flex;
+  gap: 16px;
+}
+.young2 {
+  display: flex;
+  gap: 16px;
+}
+.young3 {
+  display: flex;
+  gap: 16px;
 }
 /* mobile */
 @media screen and (max-width: 767px) {
@@ -748,13 +802,13 @@ button {
     padding-top: 350px;
   }
   .cat5 {
-    display: block;
+    display: none;
   }
   .paris {
     display: none;
   }
   .paris3 {
-    display: flex;
+    display: none;
   }
   .dog6 {
     display: none;
@@ -762,6 +816,26 @@ button {
   .dog7 {
     display: flex;
     padding-top: 42px;
+  }
+  .key3 {
+    display: none;
+    gap: 10px;
+  }
+  .key4 {
+    display: none;
+  }
+  .key5 {
+    display: block;
+  }
+  .key6 {
+    display: block;
+  }
+  .paris4 {
+    display: flex;
+  }
+  .key10 {
+    display: flex;
+    flex-direction: column;
   }
   .dog8 {
     display: none;
@@ -875,9 +949,12 @@ button {
     padding-block: 12px;
   }
   #pink {
-    display: none;
+    display: flex;
+    background-image: url(./ipad.jpg);
+    background-position: center;
+    background-size: cover;
   }
-  .hoyr {
+  /* .hoyr {
     width: 366px;
     height: 490px;
     background-image: url(./magic1.jpg);
@@ -885,5 +962,255 @@ button {
     display: flex;
     flex-direction: column;
     background-size: cover;
+  } */
+  .seven {
+    display: none;
+  }
+  .dog10 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 400px;
+  }
+  .air {
+    padding-left: 60px;
+  }
+  .dad {
+    display: flex;
+
+    justify-content: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px;
+  }
+  .child {
+    height: 490px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .neg {
+    background-image: url(./magic1.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-shrink: 0;
+  }
+  .hoyr {
+    background-image: url(./magic2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .gurv {
+    background-image: url(./magic4.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .durv {
+    background-image: url(./mac.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .tav {
+    background-image: url(./magic5.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .zurga {
+    display: none;
+  }
+  .doloo {
+    background-image: url(./two\ phone.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .get {
+    width: 150px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .sizes {
+    width: 285px;
+    height: 40px;
+  }
+  .dog2 {
+    display: none;
+  }
+  .cat4 {
+    padding-top: 280px;
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  .cat5 {
+    display: block;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+  }
+  .paris3 {
+    display: flex;
+  }
+  .learn3 {
+    width: 107px;
+    height: 36px;
+    background-color: #0071e3;
+    color: white;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buy3 {
+    width: 66px;
+    height: 36px;
+    border-radius: 999px;
+    border: 1px solid rgba(41, 151, 255, 1);
+    color: rgba(41, 151, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .key {
+    display: none;
+  }
+  .cat {
+    display: none;
+  }
+  .what {
+    padding-right: 65px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .series {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .sizes {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .learn2 {
+    width: 107px;
+    height: 36px;
+    background-color: #0071e3;
+    color: white;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buy2 {
+    width: 66px;
+    height: 36px;
+    border-radius: 999px;
+    border: 1px solid rgba(41, 151, 255, 1);
+    color: rgba(41, 151, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .key2 {
+    display: block;
+  }
+  .key3 {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .dog3 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .dog4 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .dog6 {
+    display: none;
+  }
+  .key4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    gap: 10px;
+  }
+  .energy {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .energy2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 314px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .dog8 {
+    display: none;
+  }
+  #tugs1 {
+    width: 689px;
+    height: 368px;
+  }
+  #tugs2 {
+    width: 689px;
+    height: 368px;
+  }
+  #tugs3 {
+    width: 689px;
+    height: 368px;
+  }
+  #tugs4 {
+    width: 689px;
+    height: 368px;
+  }
+  #tugs5 {
+    width: 689px;
+    height: 368px;
+  }
+  #tugs6 {
+    width: 689px;
+    height: 368px;
+  }
+  #tugs7 {
+    width: 689px;
+    height: 368px;
+  }
+  #tugs8 {
+    width: 689px;
+    height: 368px;
+  }
+  #tugs9 {
+    width: 689px;
+    height: 368px;
+  }
+  #tugs10 {
+    width: 689px;
+    height: 368px;
+  }
+  .button {
+    display: none;
+    margin: 0px;
   }
 }
