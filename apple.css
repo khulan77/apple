@@ -771,6 +771,11 @@ button {
   .learn1 {
     padding: 8px 16px;
   }
+  .neg {
+    background-image: url(./magic1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
   .hoyr {
     background-image: url(./magic1.jpg);
     background-position: center;
@@ -808,13 +813,13 @@ button {
     padding-top: 350px;
   }
   .cat5 {
-    display: none;
+    display: block;
   }
   .paris {
     display: none;
   }
   .paris3 {
-    display: none;
+    display: flex;
   }
   .dog6 {
     display: none;
@@ -842,6 +847,9 @@ button {
   .key10 {
     display: flex;
     flex-direction: column;
+  }
+  .dog2 {
+    display: none;
   }
   .dog8 {
     display: none;
@@ -927,6 +935,16 @@ button {
   }
   .drama {
     display: none;
+  }
+  .seven {
+    display: none;
+  }
+  .dog10 {
+    display: block;
+    padding-bottom: 500px;
+  }
+  .air {
+    padding-left: 60px;
   }
 }
 /* tablet */
