@@ -249,6 +249,14 @@ body {
   background-position: center;
   background-size: cover;
 }
+.nene {
+  font-size: 14px;
+  font-weight: 500;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 320px;
+}
 .hoyr {
   background-image: url(./people.jpg);
   background-position: center;
@@ -316,7 +324,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
 }
 .paris3 {
   gap: 16px;
@@ -694,6 +701,8 @@ button {
 }
 .lolo {
   display: flex;
+  padding-left: 70px;
+  padding-top: 566px;
 }
 /* mobile */
 @media screen and (max-width: 767px) {
@@ -966,6 +975,9 @@ button {
   .air {
     padding-left: 60px;
   }
+  .nene {
+    display: none;
+  }
 }
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -1082,6 +1094,9 @@ button {
     height: 36px;
     font-size: 14px;
     font-weight: 400;
+  }
+  .nene {
+    display: none;
   }
   .sizes {
     width: 285px;
@@ -1264,8 +1279,10 @@ button {
     width: 689px;
     height: 368px;
   }
-  .button {
-    display: block;
-    margin: 0px;
+  .lolo {
+    display: flex;
+    padding: 0px;
+    padding-left: 30px;
+    padding-top: 300px;
   }
 }
