@@ -624,6 +624,11 @@ body {
   scroll-snap-align: center;
   background-image: url(./lady-in-the-lake.jpg);
 }
+.lolo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 button {
   width: 133px;
   height: 44px;
@@ -633,13 +638,8 @@ button {
   align-items: center;
   justify-content: center;
   border: none;
-  margin-top: 575px;
-  margin-left: 70px;
 }
 .drama {
-  position: absolute;
-  left: 223px;
-  bottom: 60px;
   color: white;
   font-size: 17px;
   font-weight: 400;
@@ -679,18 +679,21 @@ button {
 }
 .young {
   display: flex;
-  gap: 16px;
+  gap: 12px;
   width: 100%;
 }
 .young2 {
   display: flex;
-  gap: 16px;
+  gap: 12px;
   width: 100%;
 }
 .young3 {
   display: flex;
-  gap: 16px;
+  gap: 12px;
   width: 100%;
+}
+.lolo {
+  display: flex;
 }
 /* mobile */
 @media screen and (max-width: 767px) {
@@ -777,9 +780,7 @@ button {
     background-size: cover;
   }
   .hoyr {
-    background-image: url(./magic1.jpg);
-    background-position: center;
-    background-size: cover;
+    display: none;
   }
   .gurv {
     background-image: url(./magic2.jpg);
@@ -848,6 +849,13 @@ button {
     display: flex;
     flex-direction: column;
   }
+  .key9 {
+    display: flex;
+    flex-direction: column;
+  }
+  .what {
+    padding-right: 65px;
+  }
   .dog2 {
     display: none;
   }
@@ -857,6 +865,18 @@ button {
   .dog9 {
     display: flex;
     padding-top: 341px;
+  }
+  .young {
+    display: flex;
+    flex-direction: column;
+  }
+  .young2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .young3 {
+    display: flex;
+    flex-direction: column;
   }
   #tugs1 {
     width: 274px;
@@ -971,6 +991,16 @@ button {
   #tolgoi {
     margin-top: 48px;
     padding-block: 12px;
+  }
+  #black {
+    background-image: url(./pro77.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #blue {
+    background-image: url(./pro777.jpg);
+    background-position: center;
+    background-size: cover;
   }
   #pink {
     display: flex;
@@ -1175,6 +1205,9 @@ button {
     padding-top: 300px;
     gap: 10px;
   }
+  .key9 {
+    display: none;
+  }
   .energy {
     font-size: 30px;
     font-weight: 700;
@@ -1232,7 +1265,7 @@ button {
     height: 368px;
   }
   .button {
-    display: none;
+    display: block;
     margin: 0px;
   }
 }
