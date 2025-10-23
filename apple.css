@@ -257,6 +257,9 @@ body {
   -webkit-text-fill-color: transparent;
   margin-top: 320px;
 }
+.nene2 {
+  display: none;
+}
 .hoyr {
   background-image: url(./people.jpg);
   background-position: center;
@@ -324,6 +327,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 .paris3 {
   gap: 16px;
@@ -828,6 +832,9 @@ button {
   .paris {
     display: none;
   }
+  .paris2 {
+    margin-top: 20px;
+  }
   .paris3 {
     display: flex;
   }
@@ -1122,6 +1129,9 @@ button {
   }
   .paris3 {
     display: flex;
+  }
+  .paris2 {
+    margin: 0px;
   }
   .learn3 {
     width: 107px;
