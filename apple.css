@@ -10,6 +10,7 @@ body {
   gap: 12px;
 }
 #nuur {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 12px;

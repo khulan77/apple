@@ -8,6 +8,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 #nuur {
+  width: 1920px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -32,6 +33,7 @@ body {
 .solongo {
   background-image: url(./solongo.png);
   height: 75px;
+  margin-top: 12px;
 }
 #three {
   height: 100px;
@@ -145,6 +147,7 @@ body {
   color: rgba(110, 110, 115, 1);
 }
 .fo {
+  width: 1620px;
   height: 500px;
   display: flex;
   gap: 20px;
@@ -233,6 +236,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .fo2 {
+  width: 1620px;
   height: 500px;
   display: flex;
   gap: 20px;
@@ -382,6 +386,7 @@ body {
   flex-shrink: 0;
 }
 #hamar {
+  width: 1620px;
   height: 558px;
   padding-left: 140px;
   display: flex;
@@ -595,6 +600,7 @@ body {
   margin-left: 30px;
 }
 .dad {
+  width: 1620px;
   height: 590px;
   padding-left: 140px;
   padding-top: 60px;
