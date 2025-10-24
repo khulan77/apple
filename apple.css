@@ -550,9 +550,9 @@ body {
 .tugsgul {
   display: flex;
   gap: 15px;
+  flex-shrink: 0;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
-  flex-direction: row;
 }
 #tugs1 {
   width: 1250px;
