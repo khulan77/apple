@@ -258,7 +258,14 @@ body {
   margin-top: 320px;
 }
 .nene2 {
+  height: 18px;
+  width: 169px;
   display: none;
+  font-size: 14px;
+  font-weight: 500;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .hoyr {
   background-image: url(./people.jpg);
@@ -985,6 +992,11 @@ button {
   .nene {
     display: none;
   }
+  .nene2 {
+    display: flex;
+    margin-left: 50px;
+    
+  }
 }
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -1104,6 +1116,10 @@ button {
   }
   .nene {
     display: none;
+  }
+  .nene2 {
+    display: block;
+    margin-left: 45px;
   }
   .sizes {
     width: 285px;
