@@ -261,7 +261,7 @@ body {
   height: 18px;
   width: 169px;
   display: none;
-`  font-size: 14px;
+  font-size: 14px;
   font-weight: 500;
   background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
   -webkit-background-clip: text;
@@ -310,7 +310,6 @@ body {
   align-items: center;
   color: white;
   background: rgba(0, 113, 227, 1);
-
 }
 .zurga {
   background-image: url(./card.jpg);
@@ -1163,7 +1162,6 @@ html {
   .nene2 {
     display: flex;
     margin-left: 50px;
-    
   }
 }
 /* tablet */
