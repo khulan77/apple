@@ -261,7 +261,7 @@ body {
   height: 18px;
   width: 169px;
   display: none;
-  font-size: 14px;
+`  font-size: 14px;
   font-weight: 500;
   background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
   -webkit-background-clip: text;
@@ -310,6 +310,7 @@ body {
   align-items: center;
   color: white;
   background: rgba(0, 113, 227, 1);
+
 }
 .zurga {
   background-image: url(./card.jpg);
@@ -429,9 +430,6 @@ body {
   flex-direction: column;
   gap: 10px;
 }
-.dog10 {
-  display: none;
-}
 .dog6 {
   display: flex;
   justify-content: center;
@@ -459,6 +457,10 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 10px;
+}
+.dog10 {
+  display: none;
+  flex-direction: column;
 }
 .energy {
   width: 314px;
@@ -646,6 +648,9 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  padding-left: 70px;
+  padding-top: 566px;
+  flex-shrink: 0;
 }
 button {
   width: 133px;
@@ -710,10 +715,167 @@ button {
   gap: 12px;
   width: 100%;
 }
-.lolo {
+.anna {
   display: flex;
-  padding-left: 70px;
-  padding-top: 566px;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  flex-direction: row;
+}
+.anar1 {
+  font-weight: 600;
+  width: 223px;
+  height: 18px;
+  color: white;
+  position: absolute;
+  top: 195px;
+  left: 20px;
+}
+.anar2 {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  top: 198px;
+  left: 310px;
+}
+.anar3 {
+  position: absolute;
+  color: white;
+  top: 109px;
+  left: 226px;
+}
+.anna1 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./energy5.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
+}
+.anna2 {
+  width: 417px;
+  height: 236px;
+  background-color: #143556;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
+}
+.wrap {
+  width: 196px;
+  height: 196px;
+  background-image: url(./energy4.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.anna3 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./energy3.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
+}
+.anna4 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./energy2.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
+}
+.anna5 {
+  width: 417px;
+  height: 236px;
+  background-color: rgba(235, 183, 153, 1);
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
+}
+.wrap2 {
+  width: 196px;
+  height: 196px;
+  background-image: url(./energy.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.anna6 {
+  width: 417px;
+  height: 236px;
+  background-color: #143556;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
+}
+.wrap3 {
+  width: 196px;
+  height: 196px;
+  background-image: url(./energy4.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.anna7 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./energy5.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
+}
+.anna8 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./energy3.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
+}
+.anna9 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./energy2.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
+}
+.anna10 {
+  width: 417px;
+  height: 236px;
+  background-color: rgba(235, 183, 153, 1);
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
+}
+.wrap4 {
+  width: 196px;
+  height: 196px;
+  background-image: url(./energy.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+html {
+  scroll-behavior: smooth;
 }
 /* mobile */
 @media screen and (max-width: 767px) {
@@ -852,6 +1014,9 @@ button {
     display: flex;
     padding-top: 42px;
   }
+  .dog10 {
+    display: flex;
+  }
   .key3 {
     display: none;
     gap: 10px;
@@ -982,15 +1147,18 @@ button {
   .seven {
     display: none;
   }
-  .dog10 {
+  .nene {
+    display: none;
+  }
+  .nene2 {
     display: block;
-    padding-bottom: 500px;
+    padding-left: 60px;
   }
   .air {
     padding-left: 60px;
   }
-  .nene {
-    display: none;
+  .lolo {
+    padding: 0px;
   }
   .nene2 {
     display: flex;
@@ -1050,12 +1218,6 @@ button {
   } */
   .seven {
     display: none;
-  }
-  .dog10 {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 400px;
   }
   .air {
     padding-left: 60px;
@@ -1265,6 +1427,9 @@ button {
   .dog8 {
     display: none;
   }
+  .nene2 {
+    display: flex;
+  }
   #tugs1 {
     width: 689px;
     height: 368px;
@@ -1308,7 +1473,13 @@ button {
   .lolo {
     display: flex;
     padding: 0px;
-    padding-left: 30px;
     padding-top: 300px;
+    padding-left: 20px;
+  }
+  .dog10 {
+    display: block;
+  }
+  .nene2 {
+    padding-left: 60px;
   }
 }

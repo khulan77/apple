@@ -7,34 +7,33 @@ body {
   background-color: #f5f5f7;
   font-family: "Inter", sans-serif;
 }
-
+#nuur {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 #menu {
   height: 44px;
   display: flex;
-  position: fixed;
   justify-content: center;
   z-index: 20;
   top: 0;
   align-items: center;
   gap: 24px;
   background-color: #f5f5f7;
-  font-family: "Inter" serif;
-  padding-left: 520px;
 }
 #tolgoi {
+  background-color: white;
   height: 44px;
   display: flex;
-  margin-top: 44px;
-  padding-left: 652px;
+  justify-content: center;
   align-items: center;
 }
 .solongo {
   background-image: url(./solongo.png);
-  width: 1920px;
   height: 75px;
 }
 #three {
-  width: 1640px;
   height: 100px;
   justify-content: space-between;
   display: flex;
@@ -88,11 +87,9 @@ body {
   gap: 16px;
 }
 #card {
-  width: 1896px;
   height: 146px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-left: 140px;
   gap: 12px;
 }
 .cash {
@@ -119,7 +116,6 @@ body {
 }
 #mouse {
   height: 558px;
-  width: 1920px;
   padding-left: 140px;
   display: flex;
   flex-direction: column;
@@ -149,7 +145,6 @@ body {
   color: rgba(110, 110, 115, 1);
 }
 .fo {
-  width: 1640px;
   height: 500px;
   display: flex;
   gap: 20px;
@@ -168,21 +163,25 @@ body {
   background-image: url(./cold1.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 18px;
 }
 .ipad {
   background-image: url(./cold2.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 18px;
 }
 .pro {
   background-image: url(./cold3.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 18px;
 }
 .mac {
   background-image: url(./cold4.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 18px;
 }
 
 .black {
@@ -234,7 +233,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .fo2 {
-  width: 1640px;
   height: 500px;
   display: flex;
   gap: 20px;
@@ -376,7 +374,6 @@ body {
   color: rgba(110, 110, 115, 1);
 }
 .fo3 {
-  width: 1640px;
   height: 500px;
   display: flex;
   gap: 20px;
@@ -386,7 +383,6 @@ body {
 }
 #hamar {
   height: 558px;
-  width: 1920px;
   padding-left: 140px;
   display: flex;
   flex-direction: column;
@@ -409,7 +405,6 @@ body {
   margin-top: 58px;
 }
 .fo4 {
-  width: 1640px;
   height: 500px;
   display: flex;
   gap: 20px;
@@ -508,7 +503,6 @@ body {
   margin-left: 30px;
 }
 .cover {
-  width: 1640px;
   height: 500px;
   display: flex;
   gap: 20px;
@@ -601,16 +595,12 @@ body {
   margin-left: 30px;
 }
 .dad {
-  width: 1920px;
   height: 590px;
-  padding: 60px 140px;
+  padding-left: 140px;
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
   gap: 24px;
-}
-.kamer1 {
-  width: 960px;
-  height: 831px;
 }
 .kamer {
   width: 960px;
@@ -643,7 +633,6 @@ body {
   color: rgba(110, 110, 115, 1);
 }
 #math {
-  width: 1640px;
   height: 500px;
   flex-direction: row;
   display: flex;
@@ -753,7 +742,6 @@ body {
   color: black;
 }
 .happy {
-  width: 1920px;
   height: 92px;
   padding: 60px 140px;
   display: flex;
