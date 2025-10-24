@@ -1002,7 +1002,7 @@ html {
     display: none;
   }
   .paris2 {
-    margin-top: 20px;
+    margin-bottom: 80px;
   }
   .paris3 {
     display: flex;
@@ -1150,10 +1150,6 @@ html {
   .nene {
     display: none;
   }
-  .nene2 {
-    display: block;
-    padding-left: 60px;
-  }
   .air {
     padding-left: 60px;
   }
@@ -1163,6 +1159,7 @@ html {
   .nene2 {
     display: flex;
     margin-left: 50px;
+    margin-top: 300px;
   }
 }
 /* tablet */
@@ -1279,8 +1276,9 @@ html {
     display: none;
   }
   .nene2 {
-    display: block;
-    margin-left: 45px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 350px;
   }
   .sizes {
     width: 285px;
@@ -1309,6 +1307,7 @@ html {
   }
   .paris2 {
     margin: 0px;
+    margin-bottom: 100px;
   }
   .learn3 {
     width: 107px;
@@ -1426,9 +1425,6 @@ html {
   .dog8 {
     display: none;
   }
-  .nene2 {
-    display: flex;
-  }
   #tugs1 {
     width: 689px;
     height: 368px;
@@ -1477,8 +1473,5 @@ html {
   }
   .dog10 {
     display: block;
-  }
-  .nene2 {
-    padding-left: 60px;
   }
 }
